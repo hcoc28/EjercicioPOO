@@ -65,7 +65,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var miLibro = new Libro("Programación Moderna", "Ismael", 2025);
+        var miLibro = new Libro("mil años de soledad", "Gabriel García Márquez", 1967);
         miLibro.MostrarInformacion();
 
         if (miLibro.EsReciente())
